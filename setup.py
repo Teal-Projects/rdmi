@@ -7,7 +7,7 @@ import rdmi
 
 setup(
     name='rdmi',
-    version=rdmi.__version__,
+    version='1.0.1',
     packages=['rdmi'],
     author='Kanchen Monnin',
     author_email='kanchen@mail.com',
