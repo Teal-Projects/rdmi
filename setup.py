@@ -8,7 +8,7 @@ import rdmi
 setup(
     name='rdmi',
     version=rdmi.__version__,
-    packages=find_packages(),
+    packages=['rdmi'],
     author='Kanchen Monnin',
     author_email='kanchen@mail.com',
     description='Print a range of numbers in random order',
@@ -20,11 +20,14 @@ setup(
     url='https://github.com/Teal-Projects/rdmi',
     classifiers=[
         'Programming Language :: Python',
-        'Development Status :: 5 - Production/Stable',
-        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3.8',
-        'Topic :: System',
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',      
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',   
+        'Programming Language :: Python :: 3',     
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     entry_points={
         'console_scripts': [
